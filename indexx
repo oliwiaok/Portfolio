@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moje Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Nagłówek z nazwą strony -->
+    <header>
+        <div class="container">
+            <h1>Cześć!</h1>
+            <p>Nazywam się Oliwia Otomańska,</p>
+            <p>projektuję elementy identyfikacji wizualnej.</p>
+        </div>
+    </header>
+
+    <!-- Nawigacja - zakładki -->
+    <nav>
+        <ul>
+            <li><a href="#o-mnie">O mnie</a></li>
+            <li><a href="#projekty">Projekty</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sekcja O mnie -->
+    <section id="o-mnie" class="section">
+        <div class="container">
+            <h2>O mnie</h2>
+            <img src="o.jpg" alt="Moje zdjęcie" id="moje-zdjecie">
+            <p>Jestem kreatywną i zorganizowaną osobą. Interesuję się projektowaniem graficznym.</p>
+            <p>Szukam możliwości doświadczenia i rozwoju w branży reklamowej.</p>
+            <h2>Dlaczego ja?</h2>
+            <p>Podchodzę indywidualnie do każdego klienta, </p>
+            <p>a grafika komputerowa jest czymś, co naprawdę mnie cieszy i do czego się przykładam.</p>
+        </div>
+    </section>
+
+    <!-- Sekcja Projekty -->
+    <section id="projekty" class="section">
+        <div class="container">
+            <h2>Projekty</h2>
+
+            <!-- Zakładki -->
+            <ul class="projekty-zakladki">
+                <li><a href="#ulotki">Ulotki</a></li>
+                <li><a href="#plakaty">Plakaty</a></li>
+                 <li><a href="#wizytówki">Wizytówki</a></li>
+                 <li><a href="#logo">Logo</a></li>
+                 <li><a href="#grafiki">Grafiki</a></li>
+            </ul>
+
+            <!-- Kategoria ulotek -->
+            <div id="ulotki" class="projekty-kategoria">
+                <div class="projekty">
+                    <div class="projekt"
+                         onclick="window.open('projekt1.png')">
+                        <img src="projekt1.png" alt="Awers wizytówki - fotograf">
+                        <p>Awers ulotki - fotograf</p>
+                    </div>
+                    <div class="projekt"
+                         onclick="window.open('projekt2.png')">
+                        <img src="projekt2.png" alt="Rewers wizytówki - fotograf">
+                        <p>Rewers ulotki - fotograf</p>
+                    </div>
+                    <div class="projekt"
+                          onclick="window.open('projekt5.png')">
+                        <img src="projekt5.png" alt="Awers ulotki DL - hotel">
+                        <p>Awers ulotki DL - hotel</p>
+                    </div>
+                    <div class="projekt"
+                          onclick="window.open('projekt8.png')">
+                        <img src="projekt8.png" alt="Rewers ulotki DL - hotel">
+                        <p>Rewers ulotki DL - hotel</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kategoria plakatów -->
+            <div id="plakaty" class="projekty-kategoria">
+                <div class="projekty">
+                    <div class="projekt"
+                          onclick="window.open('projekt3.png')">
+                        <img src="projekt3.png" alt="Wystawa sztuki abstrakcyjnej">
+                        <p>Wystawa sztuki abstrakcyjnej</p>
+                    </div>
+                    <div class="projekt"
+                          onclick="window.open('projekt4.png')">
+                        <img src="projekt4.png" alt="Wystawa sztuki art deco">
+                        <p>Wystawa sztuki art deco</p>
+                    </div>
+                </div>
+            </div>
+          <!-- Kategoria wizytówek -->
+            <div id="wizytówki" class="projekty-kategoria">
+                <div class="projekty">
+                    <div class="projekt"
+                         onclick="window.open('projekt6.png')">
+                        <img src="projekt6.png" alt="wizytówka - kawiarnia">
+                        <p>Awers wizytówki - kawiarnia</p>
+                    </div>
+                    <div class="projekt"
+                          onclick="window.open('projekt7.png')">
+                        <img src="projekt7.png" alt=""Karta stałego klienta - kawiarnia"">
+                        <p>Rewers wizytówki - kawiarnia</p>
+                    </div>
+                     <div class="projekt"
+                          onclick="window.open('projekt11.png')">
+                        <img src="projekt11.png" alt=""Wizytówka - makijażystka"">
+                        <p>Wizytówka - makijażystka</p>
+                    </div>
+                    </div>
+                </div>
+        <!-- Kategoria logo -->
+            <div id="logo" class="projekty-kategoria">
+                <div class="projekty">
+                    <div class="projekt"
+                         onclick="window.open('projekt10.png')">
+                        <img src="projekt10.png" alt="Logo - Tischner Sport">
+                        <p>Logo - Tischner Sport</p>
+                    </div>
+                      <div class="projekt"
+                         onclick="window.open('logo2.png')">
+                        <img src="logo2.png" alt="Logo - gabinet weterynaryjny 1">
+                        <p>Logo - gabinet weterynaryjny 1</p>
+                    </div>
+                    <div class="projekt"
+                         onclick="window.open('logo3.png')">
+                        <img src="logo3.png" alt="Logo - gabinet weterynaryjny 2">
+                        <p>Logo - gabinet weterynaryjny 2</p>
+                    </div>
+                    <div class="projekt"
+                         onclick="window.open('logo4.png')">
+                        <img src="logo4.png" alt="Logo - gabinet weterynaryjny 3">
+                        <p>Logo - gabinet weterynaryjny 3</p>
+                    </div>
+                    </div>
+                </div>
+               <!-- Kategoria grafik -->
+            <div id="grafiki" class="projekty-kategoria">
+                <div class="projekty">
+                    <div class="projekt"
+                          onclick="window.open('projekt9.jpg')">
+                        <img src="projekt9.jpg" alt="Grafika - technik reklamy">
+                        <p>Grafika - technik reklamy</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Sekcja Kontakt -->
+    <section id="kontakt" class="section">
+        <div class="container">
+            <h2>Kontakt</h2>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/oliwia-otoma%C5%84ska-a6b041257/"target="_blank">Oliwia Otomańska</a></p>
+            <p>Adres e-mail: <a href="mailto:i22.oliwia.otomanska@ckziu1wadowice.pl">i22.oliwia.otomanska@ckziu1wadowice.pl</a></p>
+        </div>
+    </section>
+
+    <!-- Stopka -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Portfolio Oliwia Otomańska</p>
+        </div>
+    </footer>
+</body>
+
+</html>
+
+
